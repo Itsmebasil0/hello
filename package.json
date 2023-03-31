@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/V1P3R-X/X-AsenaDuplicated#readme",
   "dependencies": {
-    "@adiwajshing/baileys": "^5.0.0",
+    "@adiwajshing/baileys": "^4.4.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "3.0.0",
     "@neeraj-x0/textpro": "^1.0.3",
@@ -70,6 +70,8 @@
     "sequelize": "^6.23.0",
     "sharp": "^0.30.7",
     "simple-git": "^3.14.1",
+     "secktor-pack": "latest",
+     "ytdl-secktor": "latest",
     "spinnies": "^0.5.1",
     "sqlite3": "^5.1.1",
     "supervisor": "^0.12.0",
