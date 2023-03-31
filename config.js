@@ -1,6 +1,8 @@
 /* Copyright (C) 2022 X-Electra.
+
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
+
 X-asena X-Electra
 */
 
@@ -20,17 +22,17 @@ module.exports = {
   SESSION_ID:process.env.SESSION_ID || "ZUJBSGh_XASENA_kNGI=",
   LANG: process.env.LANG || "EN",
   HANDLERS:
-    process.env.HANDLER === "." || process.env.HANDLER === "null"
+    process.env.HANDLER === "false" || process.env.HANDLER === "null"
       ? "^"
       : "^[,]",
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "master",
-  PACKNAME: process.env.PACKNAME || "WʜᴀᴛꜱKʀɪᴢ AI",
+  PACKNAME: process.env.PACKNAME || "X-Asena",
   WELCOME_MSG:
     process.env.WELCOME_MSG ||
     "Hi @user Welcome to @gname",
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
-  AUTHOR: process.env.AUTHOR || "ᴛᴇᴀᴍ-ᴛᴏxɪᴄ",
+  AUTHOR: process.env.AUTHOR || "X-Electra",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"
@@ -49,10 +51,10 @@ module.exports = {
           },
           logging: false,
         }),
-  SUDO: process.env.SUDO || "919544685703",
+  SUDO: process.env.SUDO || "919544685703,919846817612,919961966147",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
-  OWNER_NAME: process.env.OWNER_NAME || "ᴋʀɪᴢ ꜱᴇʀ",
-  BOT_NAME: process.env.BOT_NAME || "WʜᴀᴛꜱKʀɪᴢ AI",
-  WORK_TYPE: process.env.WORK_TYPE || "private",
+  OWNER_NAME: process.env.OWNER_NAME || "X-Electra",
+  BOT_NAME: process.env.BOT_NAME || "X-AsenaDuplicated",
+  WORK_TYPE: process.env.WORK_TYPE || "public",
 };
